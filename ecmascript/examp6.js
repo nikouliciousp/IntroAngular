@@ -10,3 +10,9 @@ const obj = {
 
 // Call the greet method of the object
 obj.greet(); // Output: Hello my name is John
+
+// Assign the greet method to a new variable
+const pgreeter = obj.greet;
+
+// Call the function assigned to the new variable
+pgreeter(); // Output: Hello my name is undefined (because 'this' refers to the global object, which doesn't have a 'name' property)
