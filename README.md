@@ -1,22 +1,22 @@
-# IntroAngular
+# IntroTypeScript
 
 ## Introduction
-Welcome to the **IntroAngular** project! This project is designed to help you get started with Angular, a popular framework for building dynamic and interactive web applications.
+Welcome to the **IntroTypeScript** project! This project is designed to help you get started with TypeScript, a popular language for building dynamic and interactive web applications.
 
 ## Features
-- **Basic setup and configuration** of an Angular project
-- Examples of **components**, **services**, and **modules**
-- Demonstrations of **data binding**, **event handling**, and **routing**
+- **Basic setup and configuration** of a TypeScript project
+- Examples of **interfaces**, **classes**, and **modules**
+- Demonstrations of **data types**, **functions**, and **decorators**
 - Integration with **external APIs**
-- **Unit testing** with Jasmine and Karma
+- **Unit testing** with Jest or Mocha
 
 ## Getting Started
 To get started with this project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/introAngular.git
-   cd introAngular
+   git clone https://github.com/yourusername/introTypeScript.git
+   cd introTypeScript
    ```
 
 2. **Install dependencies:**
@@ -24,15 +24,18 @@ To get started with this project, follow these steps:
    npm install
    ```
 
-3. **Run the development server:**
+3. **Compile TypeScript:**
    ```bash
-   ng serve
+   tsc
    ```
 
-4. **Open your browser** and navigate to [http://localhost:4200](http://localhost:4200) to see the application in action.
+4. **Run the application:**
+   ```bash
+   node dist/index.js
+   ```
 
 ## Usage
-This project includes several examples to help you understand the core concepts of Angular. Feel free to explore the codebase, experiment with it, and modify it to suit your needs.
+This project includes several examples to help you understand the core concepts of TypeScript. Feel free to explore the codebase, experiment with it, and modify it to suit your needs.
 
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
